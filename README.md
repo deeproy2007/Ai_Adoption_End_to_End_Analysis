@@ -39,7 +39,7 @@ This repository contains a **data analytics project** that evaluates the impact 
 │   ├──Screenshot (63).png
 │   ├──Screenshot (64).png
 ├── sql/
-│   └── college_analysis_sql.sql
+│   └── Sql_querys
 ├── dashboard/
 │   └── college_dashboard.pbix
 ├── Project_Report.md
