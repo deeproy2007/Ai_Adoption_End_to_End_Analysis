@@ -1,0 +1,151 @@
+# AI Adoption in Colleges – Data Analytics Project
+
+## Project Overview
+
+This project analyzes the impact of **AI adoption in colleges** on student performance, engagement, and attendance. Using **SQL analysis**, **Power BI dashboards**, and multiple datasets, the project evaluates whether AI-driven platforms improve academic outcomes.
+
+---
+
+## Objectives
+
+* Analyze colleges that adopted AI platforms
+* Measure GPA changes before and after AI adoption
+* Study student engagement with EdTech platforms
+* Identify departments and semesters benefiting most from AI
+* Create an interactive Power BI dashboard for insights
+
+---
+
+## Datasets Used
+
+The project uses four datasets:
+
+1. **colleges.csv**
+
+   * college_id
+   * college_name
+   * adoption_year
+   * ai_platform
+
+2. **students.csv**
+
+   * student_id
+   * student_name
+   * department
+   * college_id
+
+3. **performance.csv**
+
+   * student_id
+   * gpa_before_ai
+   * gpa_after_ai
+   * attendance_before_ai
+   * attendance_after_ai
+   * semester
+
+4. **edtech_usage.csv**
+
+   * student_id
+   * hours_spent
+   * quizzes_taken
+   * ai_recommendations_accepted
+
+---
+
+## Tools & Technologies
+
+* SQL (MySQL)
+* Power BI
+* CSV datasets
+* GitHub
+
+---
+
+## Methodology
+
+1. Imported datasets into MySQL database (`collegedb1`)
+2. Performed analytical SQL queries for insights
+3. Validated results using joins and aggregations
+4. Built Power BI dashboard for visualization
+5. Interpreted trends and summarized findings
+
+---
+
+## SQL Analysis
+
+The SQL file includes queries to:
+
+* Identify colleges adopting AI in 2024
+* Count students per department
+* Compare GPA before and after AI adoption
+* Find top students based on EdTech usage
+* Analyze correlation between AI usage and GPA improvement
+* Measure attendance improvement
+* Identify best-performing AI platforms
+* Compare first-year vs final-year student improvements
+
+(SQL queries are available in `college_analysis_sql.sql`)
+
+---
+
+## Power BI Dashboard
+
+The Power BI dashboard provides:
+
+* GPA trends before vs after AI adoption
+* Student engagement analysis (hours spent on EdTech)
+* Department-wise performance comparison
+* AI platform effectiveness
+
+Dashboard File:
+
+* `college_dashboard.pbix`
+
+---
+
+## Key Insights
+
+* Colleges adopting AI showed measurable GPA improvement
+* Students spending more time on EdTech platforms generally improved performance
+* Certain departments benefited more from AI integration
+* Final-year students showed different improvement patterns compared to first-year students
+
+---
+
+## Conclusion
+
+AI adoption in colleges positively impacts academic performance, attendance, and engagement. Data-driven insights support strategic investment in AI-based education platforms.
+
+---
+
+## Future Scope
+
+* Add larger real-world datasets
+* Include predictive modeling
+* Compare multiple academic years
+* Integrate student feedback analysis
+
+---
+
+## Project Structure
+
+```
+├── datasets/
+│   ├── colleges.csv
+│   ├── students.csv
+│   ├── performance.csv
+│   └── edtech_usage.csv
+├── sql/
+│   └── college_analysis_sql.sql
+├── dashboard/
+│   └── college_dashboard.pbix
+├── README.md
+└── tool.txt
+```
+
+---
+
+## Author
+
+Deep Roy
+Data Analyst | SQL | Power BI | Python
