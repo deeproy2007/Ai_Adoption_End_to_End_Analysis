@@ -60,7 +60,7 @@ This repository contains a **data analytics project** that evaluates the impact 
 ## How to Use This Project
 
 1. Review the **Project_Report.md** for full explanation and insights
-2. Run SQL queries from `college_analysis_sql.sql`
+2. Run SQL queries from `Sql_querys`
 3. Open the Power BI dashboard (`.pbix`) to explore visual insights
 4. Analyze datasets for further extensions
 
