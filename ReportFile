@@ -127,23 +127,6 @@ AI adoption in colleges positively impacts academic performance, attendance, and
 
 ---
 
-## Project Structure
-
-```
-├── datasets/
-│   ├── colleges.csv
-│   ├── students.csv
-│   ├── performance.csv
-│   └── edtech_usage.csv
-├── sql/
-│   └── college_analysis_sql.sql
-├── dashboard/
-│   └── college_dashboard.pbix
-├── README.md
-└── tool.txt
-```
-
----
 
 ## Author
 
